@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 # Ouverture du fichier "data.txt"
 with open("data.txt", "r") as f:
@@ -23,8 +23,8 @@ percentages = {letter: (count / total_letters) * 100 for letter, count in occurr
 sorted_letters = sorted(percentages.keys())
 
 # Créer un histogramme des pourcentages d'apparition de chaque lettre
-plt.bar(range(len(sorted_letters)), [percentages[letter] for letter in sorted_letters])
-plt.xticks(range(len(sorted_letters)), sorted_letters)
-plt.xlabel("Lettre")
-plt.ylabel("Pourcentage d'apparition")
-plt.show()
+# plt.bar(range(len(sorted_letters)), [percentages[letter] for letter in sorted_letters])
+# plt.xticks(range(len(sorted_letters)), sorted_letters)
+# plt.xlabel("Lettre")
+# plt.ylabel("Pourcentage d'apparition")
+# plt.show()
